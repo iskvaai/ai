@@ -29,15 +29,14 @@ ul.marker1 > li {
 .picture{
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 /*.picture{*/
 /*    display: table-caption;*/
 /*}*/
 
 .dorama-foto1{
-    width: 270px;
-    height: 380px;
+    width: 170px;
+    height: 280px;
 
 }
 @media screen and (max-width: 720px){
