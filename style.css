@@ -27,16 +27,15 @@ ul.marker1 > li {
     color: black;
 }
 .picture{
-    display: flex;
-    flex-direction: column;
+    display: table-caption ;
 }
 /*.picture{*/
 /*    display: table-caption;*/
 /*}*/
 
 .dorama-foto1{
-    width: 170px;
-    height: 280px;
+    width: 200px;
+    height: 300px;
 
 }
 @media screen and (max-width: 720px){
@@ -44,8 +43,6 @@ ul.marker1 > li {
         height: 1560px;
     }
     .picture{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
+
     }
 }
