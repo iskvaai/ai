@@ -1,5 +1,8 @@
+body{
+    margin: 0;
+}
 .dorama-wrapper{
-    width: 1400px;
+    width: 100%;
     background: url("img/background.jpeg");
 }
 .dorama-heading{
@@ -22,6 +25,11 @@ ul.marker1 > li {
     font-size: 22px;
     text-decoration: none;
     color: black;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 /*.picture{*/
 /*    display: table-caption;*/
