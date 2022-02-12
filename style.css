@@ -1,6 +1,6 @@
 .dorama-wrapper{
     width: 1400px;
-    background-color: darkgrey;
+    background: url("img/background.jpeg");
 }
 .dorama-heading{
     font-size: 22px;
@@ -31,4 +31,9 @@ ul.marker1 > li {
     width: 270px;
     height: 380px;
 
+}
+@media screen and (max-width: 720px){
+    body{
+        height: 1560px;
+    }
 }
