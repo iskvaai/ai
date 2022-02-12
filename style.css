@@ -1,0 +1,26 @@
+.dorama-wrapper{
+    width: 1050px;
+    background-color: darkgrey;
+}
+.dorama-heading{
+    font-size: 22px;
+}
+h1:first-letter{
+    color: darkred;
+    font-weight: 800;
+}
+ul.marker1 > li {
+    display: inline;
+    border: 0;
+    padding: 5px;
+
+}
+.marker1{
+    list-style: none;
+}
+.link1{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+
+}
