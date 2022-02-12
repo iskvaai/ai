@@ -43,6 +43,6 @@ ul.marker1 > li {
         height: 1560px;
     }
     .picture{
-
+        display: table-caption;
     }
 }
