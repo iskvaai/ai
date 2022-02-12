@@ -1,5 +1,5 @@
 .dorama-wrapper{
-    width: 1050px;
+    width: 1400px;
     background-color: darkgrey;
 }
 .dorama-heading{
@@ -22,5 +22,13 @@ ul.marker1 > li {
     font-size: 22px;
     text-decoration: none;
     color: black;
+}
+/*.picture{*/
+/*    display: table-caption;*/
+/*}*/
+
+.dorama-foto1{
+    width: 270px;
+    height: 380px;
 
 }
