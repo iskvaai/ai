@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    box-sizing: border-box;
 }
 .dorama-wrapper{
     width: 100%;
-    background: url("img/background.jpeg");
+    background: url("img/fon.jpg ");
 }
 .dorama-heading{
     font-size: 22px;
@@ -27,16 +28,27 @@ ul.marker1 > li {
     color: black;
 }
 .picture{
-    display: table-caption ;
+    display: flex;
+    flex-wrap: wrap;
 }
 /*.picture{*/
 /*    display: table-caption;*/
 /*}*/
 
 .dorama-foto1{
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
 
+}
+.dorama-foto{
+    width: 50px;
+    background: none;
+}
+.instagram img{
+    width: 30px;
+}
+.telegram img{
+    width: 28px;
 }
 @media screen and (max-width: 720px){
     body{
@@ -44,5 +56,6 @@ ul.marker1 > li {
     }
     .picture{
         display: table-caption;
+        width: 50%;
     }
 }
